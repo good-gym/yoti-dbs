@@ -1,15 +1,8 @@
 @import 'fonts';
-
-$body-font-stack: adellesans, sans-serif;
-$headline-font-stack-a: lft-etica, sans-serif;
-$headline-font-stack-b: knockout, sans-serif;
-
-$goodgym-red: #ED1C24;
-$goodgym-black: #000000;
-$goodgym-white: #FFFFFF;
+@import 'colors';
 
 body {
   background-color: $goodgym-red;
   color: $goodgym-white;
-  font-family: $headline-font-stack-b;
+  font-family: $body-font-stack;
 }
