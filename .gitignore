@@ -1,4 +1,4 @@
 node_modules
 master.css
 *.css.map
-.sass-cache/*
+.sass-cache
