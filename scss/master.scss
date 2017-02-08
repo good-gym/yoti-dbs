@@ -1,5 +1,6 @@
-$font-stack:
+@import 'fonts';
 
 body {
-  background-color: black;
+  font-family: 'knockout';
+  background-color: hotpink;
 }
