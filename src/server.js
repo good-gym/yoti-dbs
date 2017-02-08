@@ -28,6 +28,12 @@ server.register(Vision, (err) => {
     method: 'GET',
     handler: (request, reply) => reply.view('index', {})
   });
+
+  server.route({
+    path: '/postcode',
+    method: 'GET',
+    handler: (request, reply) => reply.view('postcode', {})
+  });
 });
 
 server.register(Inert, (err) => {
