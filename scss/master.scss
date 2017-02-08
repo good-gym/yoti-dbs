@@ -1,5 +1,13 @@
-$font-stack:
+$body-font-stack: "adellesans", sans-serif;
+$headline-font-stack-a: "lft-etica", sans-serif;
+$headline-font-stack-b: "knockout-htf29-juniorliteweight", sans-serif;
+
+$goodgym-red: #ED1C24;
+$goodgym-black: #000000;
+$goodgym-white: #FFFFFF;
 
 body {
-  background-color: black;
+  background-color: $goodgym-red;
+  color: $goodgym-white;
+  font-family: $body-font-stack;
 }
