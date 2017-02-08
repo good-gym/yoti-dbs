@@ -1,20 +1,38 @@
 @font-face {
   font-family: knockout;
-  src: asset-url('/fonts/knockout-htf29-juniorliteweight.woff') format('woff'),
-       asset-url('/fonts/knockout-htf29-juniorliteweight.eot') format('eot'),
-       asset-url('/fonts/knockout-htf29-juniorliteweight.ttf') format('ttf'),
-       asset-url('/fonts/knockout-htf29-juniorliteweight.otf') format('otf');
+  src: url('/fonts/knockout-htf29-juniorliteweight.woff') format('woff'),
+       url('/fonts/knockout-htf29-juniorliteweight.eot') format('eot'),
+       url('/fonts/knockout-htf29-juniorliteweight.ttf') format('ttf'),
+       url('/fonts/knockout-htf29-juniorliteweight.otf') format('otf');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: lft_etica;
-  src: asset-url('/fonts/lft_etica_webfont.eot');
-  src: asset-url('/fonts/lft_etica_webfont.eot?#iefix') format('embedded-opentype'),
-       asset-url('/fonts/lft_etica_webfont.woff') format('woff'),
-       asset-url('/fonts/lft_etica_webfont.ttf') format('truetype'),
-       asset-url('/fonts/lft_etica_webfont.svg#lft_etica') format('svg');
+  src: url('/fonts/lft_etica_webfont.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/lft_etica_webfont.woff') format('woff'),
+       url('/fonts/lft_etica_webfont.ttf') format('truetype'),
+       url('/fonts/lft_etica_webfont.svg#lft_etica') format('svg');
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: adellesans;
+  src: url('adellesans_webfont.eot?#iefix') format('embedded-opentype'),
+       url('adellesans_webfont.woff') format('woff'),
+       url('adellesans_webfont.ttf') format('truetype'),
+       url('adellesans_webfont.svg#adellesans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: adellesans;
+  src: url('adellesans-bold-webfont.woff2') format('woff2'),
+       url('adellesans-bold-webfont.woff') format('woff'),
+       url('adellesans-bold-webfont.otf') format('otf');
+  font-weight: bold;
   font-style: normal;
 }
