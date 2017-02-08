@@ -7,10 +7,13 @@ body {
   font-family: $body-font-stack;
 }
 
-h1, h2, h3, h4, h5 {
+body h1, h2, h3, h4, h5 {
   font-family: $header-font-stack;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 button {
   font-family: $button-font-stack;
+  font-size: 2em;
 }
