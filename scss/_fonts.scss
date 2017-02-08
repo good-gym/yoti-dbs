@@ -1,0 +1,20 @@
+@font-face {
+  font-family: knockout;
+  src: asset-url('/fonts/knockout-htf29-juniorliteweight.woff') format('woff'),
+       asset-url('/fonts/knockout-htf29-juniorliteweight.eot') format('eot'),
+       asset-url('/fonts/knockout-htf29-juniorliteweight.ttf') format('ttf'),
+       asset-url('/fonts/knockout-htf29-juniorliteweight.otf') format('otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: lft_etica;
+  src: asset-url('/fonts/lft_etica_webfont.eot');
+  src: asset-url('/fonts/lft_etica_webfont.eot?#iefix') format('embedded-opentype'),
+       asset-url('/fonts/lft_etica_webfont.woff') format('woff'),
+       asset-url('/fonts/lft_etica_webfont.ttf') format('truetype'),
+       asset-url('/fonts/lft_etica_webfont.svg#lft_etica') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
