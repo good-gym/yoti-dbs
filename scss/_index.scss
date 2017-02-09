@@ -1,0 +1,16 @@
+@import 'general';
+
+.description-container {
+  width : 80%;
+  text-align: center;
+  margin: 0 auto;
+  color: black;
+  p {
+    width: 100%;
+  }
+}
+
+.get-started-button {
+  @extend .button;
+    margin: 1rem;
+}
