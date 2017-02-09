@@ -1,0 +1,16 @@
+@import 'colors';
+@import 'fonts';
+
+.button {
+  font-family: $button-font-stack;
+  font-family: "knockout";
+  display: inline-block;
+  color: $goodgym-white;
+  background: $goodgym-black;
+  box-shadow: -5px 5px $goodgym-red;
+  border: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  padding: 0.25rem;
+}

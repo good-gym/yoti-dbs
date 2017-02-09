@@ -2,6 +2,8 @@
 @import 'colors';
 @import 'header';
 @import 'mixins';
+@import 'general';
+@import 'index';
 
 html {
   font-size: 20px;
@@ -22,23 +24,9 @@ a {
 body h1, h2, h3, h4, h5 {
   font-family: $header-font-stack;
   font-weight: 500;
-  text-transform: uppercase;
-  margin: 0.75rem;
 }
 
-.button {
-  font-family: $button-font-stack;
-  font-family: "knockout";
-  display: inline-block;
-  color: $goodgym-white;
-  background: $goodgym-black;
-  box-shadow: -5px 5px $goodgym-red;
-  border: none;
-  font-size: 2rem;
-  text-transform: uppercase;
-  margin: 0.75rem;
-  padding: 0.25rem;
-}
+
 
 input {
   color: $goodgym-red;
