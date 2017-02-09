@@ -1,16 +1,18 @@
 @import 'general';
 
-.description-container {
+.location-description-container {
   width : 80%;
   text-align: center;
   margin: 0 auto;
   color: black;
   p {
     width: 100%;
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
   }
 }
 
-.get-started-button {
+.find-location-button {
   @extend .button;
-    margin: 1rem;
+  margin-top: 3rem;
 }

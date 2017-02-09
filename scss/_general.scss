@@ -1,6 +1,11 @@
 @import 'colors';
 @import 'fonts';
 
+.index-title {
+  text-transform: uppercase;
+  margin: 1.3rem;
+}
+
 .button {
   font-family: $button-font-stack;
   font-family: "knockout";
@@ -11,6 +16,5 @@
   border: none;
   font-size: 2rem;
   text-transform: uppercase;
-  margin: 1rem;
   padding: 0.25rem;
 }
