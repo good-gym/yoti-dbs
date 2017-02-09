@@ -34,6 +34,30 @@ server.register(Vision, (err) => {
     method: 'GET',
     handler: (request, reply) => reply.view('postcode', {})
   });
+
+  server.route({
+    path: '/location',
+    method: 'GET',
+    handler: (request, reply) => reply.view('location', {})
+  });
+
+  server.route({
+    path: '/times',
+    method: 'GET',
+    handler: (request, reply) => reply.view('times', {})
+  });
+
+  server.route({
+    path: '/summary',
+    method: 'GET',
+    handler: (request, reply) => reply.view('summary', {})
+  });
+
+  server.route({
+    path: '/confirmation',
+    method: 'GET',
+    handler: (request, reply) => reply.view('confirmation', {})
+  });
 });
 
 server.register(Inert, (err) => {

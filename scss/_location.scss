@@ -1,0 +1,13 @@
+@import 'general';
+
+.location-container {
+  height: 120px;
+  margin: 25px;
+  border-radius: 0.6rem;
+}
+
+.choose-location-button {
+  @extend .button;
+  background-size: cover;
+  margin-top : 30px;
+}
