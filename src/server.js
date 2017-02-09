@@ -40,6 +40,12 @@ server.register(Vision, (err) => {
     method: 'GET',
     handler: (request, reply) => reply.view('location', {})
   });
+
+  server.route({
+    path: '/times',
+    method: 'GET',
+    handler: (request, reply) => reply.view('times', {})
+  });
 });
 
 server.register(Inert, (err) => {
