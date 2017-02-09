@@ -6,6 +6,8 @@
 @import 'index';
 @import 'postcode';
 @import 'location';
+@import 'times';
+@import 'summary';
 
 html {
   font-size: 20px;
@@ -27,6 +29,8 @@ body h1, h2, h3, h4, h5 {
   font-family: $header-font-stack;
   font-weight: 500;
 }
+
+
 
 input {
   color: $goodgym-red;
