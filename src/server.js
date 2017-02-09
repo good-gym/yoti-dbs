@@ -2,13 +2,21 @@ const Hapi = require('hapi');
 const Vision = require('vision');
 const Inert = require('inert');
 const Handlebars = require('handlebars');
+const Fs = require('fs');
 
 const server = new Hapi.Server();
 
 
-server.connection({
-  port: process.env.PORT || 4000
-});
+// server.connection({
+//   port: process.env.PORT || 4000
+// });
+
+var tls = {
+  key : Fs.readFileSync('keys/key.pem'),
+  cert : Fs.readFileSync('keys/cert.pem')
+};
+
+server.connection({address: '0.0.0.0', port: process.env.PORT || 4000, tls : tls});
 
 server.register(Vision, (err) => {
   if (err) throw err;
@@ -27,6 +35,12 @@ server.register(Vision, (err) => {
     path: '/',
     method: 'GET',
     handler: (request, reply) => reply.view('index', {})
+  });
+
+  server.route({
+    path: '/get-started',
+    method: 'GET',
+    handler: (request, reply) => reply.view('get-started', {})
   });
 
   server.route({
