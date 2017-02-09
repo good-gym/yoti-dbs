@@ -34,6 +34,12 @@ server.register(Vision, (err) => {
     method: 'GET',
     handler: (request, reply) => reply.view('postcode', {})
   });
+
+  server.route({
+    path: '/location',
+    method: 'GET',
+    handler: (request, reply) => reply.view('location', {})
+  });
 });
 
 server.register(Inert, (err) => {
