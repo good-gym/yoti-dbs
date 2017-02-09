@@ -8,13 +8,14 @@
 
 .button {
   font-family: $button-font-stack;
-  font-family: "knockout";
+  font-family: "knockout" !important;
   display: inline-block;
-  color: $goodgym-white;
-  background: $goodgym-black;
+  color: $goodgym-white !important;
+  background: $goodgym-black !important;
   box-shadow: -5px 5px $goodgym-red;
   border: none;
-  font-size: 2rem;
-  text-transform: uppercase;
-  padding: 0.25rem;
+  border-radius: 0px !important;
+  font-size: 2rem !important;
+  text-transform: uppercase !important;
+  padding: 0.25rem !important;
 }
