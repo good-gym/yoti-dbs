@@ -4,6 +4,7 @@
   "description": "A web app to ease the process of getting a DBS check.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "sass scss/master.scss public/css/master.css"
   },
