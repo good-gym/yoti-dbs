@@ -14,3 +14,7 @@
   @extend .button;
     margin: 1rem;
 }
+
+._yoti-verify-button img {
+  display: none !important;
+}
