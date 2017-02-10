@@ -370,7 +370,8 @@ input {
   padding: 0.25rem;
   font-size: 1rem;
   display: inline-block;
-  clear: both; }
+  clear: both;
+  margin-bottom: 20px; }
   input ::-webkit-input-placeholder {
     color: #ED1C24;
     opacity: 0.5; }

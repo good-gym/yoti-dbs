@@ -32,8 +32,6 @@ body h1, h2, h3, h4, h5 {
   font-weight: 500;
 }
 
-
-
 input {
   color: $goodgym-red;
   border: 2px solid $goodgym-red;
@@ -42,6 +40,7 @@ input {
   font-size: 1rem;
   display: inline-block;
   clear: both;
+  margin-bottom: 20px;
   @include placeholder {
     color: $goodgym-red;
     opacity: 0.5;
