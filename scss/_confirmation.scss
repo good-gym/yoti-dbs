@@ -1,8 +1,10 @@
+@import 'colors';
+
 .confirmation-container {
   width : 80%;
   text-align: center;
   margin: 0 auto;
-  color: black;
+  color: $goodgym-black;
   p {
     width: 100%;
   }
