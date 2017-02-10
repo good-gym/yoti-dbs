@@ -34,7 +34,7 @@ server.register(Vision, (err) => {
   server.route({
     path: '/',
     method: 'GET',
-    handler: (request, reply) => reply.view('index', {})
+    handler: (request, reply) => reply.view('index', {hideBackButton: true})
   });
 
   server.route({
@@ -70,7 +70,7 @@ server.register(Vision, (err) => {
   server.route({
     path: '/confirmation',
     method: 'GET',
-    handler: (request, reply) => reply.view('confirmation', {})
+    handler: (request, reply) => reply.view('confirmation', {hideBackButton: true})
   });
 });
 
