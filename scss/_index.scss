@@ -1,10 +1,11 @@
 @import 'general';
+@import 'colors';
 
 .description-container {
   width : 80%;
   text-align: center;
   margin: 0 auto;
-  color: black;
+  color: $goodgym-light-black;
   p {
     width: 100%;
   }
