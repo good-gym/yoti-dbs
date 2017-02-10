@@ -7,16 +7,16 @@ const Fs = require('fs');
 const server = new Hapi.Server();
 
 
-// server.connection({
-//   port: process.env.PORT || 4000
-// });
+server.connection({
+  port: process.env.PORT || 4000
+});
 
-var tls = {
-  key : Fs.readFileSync('keys/key.pem'),
-  cert : Fs.readFileSync('keys/cert.pem')
-};
-
-server.connection({address: '0.0.0.0', port: process.env.PORT || 4000, tls : tls});
+// var tls = {
+//   key : Fs.readFileSync('keys/key.pem'),
+//   cert : Fs.readFileSync('keys/cert.pem')
+// };
+//
+// server.connection({address: '0.0.0.0', port: process.env.PORT || 4000,});
 
 server.register(Vision, (err) => {
   if (err) throw err;
